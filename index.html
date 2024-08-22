@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Importação fonte usada no <h1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap"
+        rel="stylesheet">
+
+    <!-- Importação da fonte usada <h2> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+NG+Modern:wght@100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="borda-pontilhada">
+            <h1>Meu CheckList</h1>
+            <input class="col-6" id="tarefa" type="text" placeholder="Informe a tarefa:"
+                style="background-color: lightblue;">
+            <select class="col-3" id="prioridade" style="background-color: lightblue;">
+                <option id="select-b" value="baixo">Baixa</option>
+                <option id="select-m" value="medio">Média</option>
+                <option id="select-a" value="alto">Alta</option>
+            </select>
+            <button id="botao-add" class="col-2" onclick="adicionar()">Adicionar</button>
+            <h2 class="mt-3">Legenda de prioridades</h2>
+            <div class="legenda">
+                <span class="facil-span">
+                    <p>Baixa</p>
+                </span>
+                <span class="medio-span">
+                    <p>Média</p>
+                </span>
+                <span class="dificil-span">
+                    <p>Alta</p>
+                </span>
+            </div>
+            <h2 id="h2-sub">Tarefas pendentes:</h2>
+            <ul id="pendentes"></ul>
+            <h2 id="h2-sub-conc">Tarefas concluídas:</h2>
+            <ul id="concluidas"></ul>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>

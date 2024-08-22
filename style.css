@@ -1,0 +1,205 @@
+.baixo {
+    border: 1px solid rgb(132, 182, 244);
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(132, 182, 244);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.medio {
+    border: 1px solid rgb(119, 221, 119);
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(119, 221, 119);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.alto {
+    border: 1px solid;
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+    background-color:rgb(255,105,97);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.legenda {
+    border: 1px solid;
+    margin: 20px 10px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.facil-span {
+    background-color: rgb(132, 182, 244);
+    border-radius: 10px;
+    margin-left: 15px;
+    height: 35px;
+    width: 60px;
+    text-align: center;
+}
+
+.facil-span p {
+    font-size: 20px;
+    color: white;
+}
+
+.medio-span {
+    background-color: rgb(119, 221, 119);
+    border: 1px solid rgb(119, 221, 119);
+    border-radius: 10px;
+    margin-left: 15px;
+    height: 35px;
+    width: 70px;
+    text-align: center;
+}
+
+.medio-span p {
+    color: white;
+    font-size: 20px;
+}
+
+.dificil-span {
+    background-color:rgb(255, 105, 97);
+    border-radius: 10px;
+    margin-left: 15px;
+    height: 35px;
+    width: 70px;
+    text-align: center;
+}
+
+.dificil-span p {
+    font-size: 20px;
+    color: white;
+}
+
+#botao-add {
+    background-color: rgb(19, 59, 76);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 0px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+#botao-add:hover {
+    background-color: rgb(121, 218, 212);
+    color: black;
+    width: 110px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/premium-vector/concept-school-background-seamless-pattern-with-doodles-vector_770164-23.jpg?w=2000);
+}
+
+main {
+    padding: 0;
+    margin-top: 50px;
+    width: 600px;
+    height: 750px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+main h1 {
+    text-align: center;
+}
+
+input {
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+h1 {
+    margin: 50px 0;
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:rgb(19, 59, 76);
+}
+
+h2 {
+    text-align: center;
+    justify-content: flex-end;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+
+#h2-sub {
+    text-align: start;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+#h2-sub-conc{  
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+
+}
+button {
+    border: 0;
+}
+
+.botao-estilo {
+    margin-left: 10px;
+    background-color: transparent;
+    color: rgb(0, 10, 101);
+
+}
+
+.botao-excluir {
+    background-color: transparent;
+    color: red;
+}
+.borda-pontilhada{
+    border: 5px dashed rgb(19, 59, 76);
+    border-radius: 10px;
+    height: 100%;
+    overflow: auto;
+}
+.concluida-fundo{
+    background-color: rgb(236, 236, 125);
+}
+#select-b{
+    background-color: rgb(132, 182, 244);
+}
+#select-m{
+    background-color: rgb(119, 221, 119);
+}
+#select-a{
+    background-color: rgb(255,105,97);
+}
